@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+<link rel="stylesheet" href="TicTactoe.css">
+<style>
+    body {
+        background-color: hsl(288, 28%, 75%);
+        font-family: 'Roboto', sans-serif;
+      }
+    </style>
+</head>
+<body>
+<div class="container-out">
+    <div class="container-in">
+    <div class="table-container">
+<p>Player <span id="player">X</span> your turn</p>
+        <table align="center">
+        <tr>
+            <td><div class="box"></div></td>
+            <td><div class="box"></div></td>
+            <td><div class="box"></div></td>
+        </tr>
+        <tr>
+            <td><div class="box"></div></td>
+            <td><div class="box"></div></td>
+            <td><div class="box"></div></td>
+        </tr>
+        <tr>
+            <td><div class="box"></div></td>
+            <td><div class="box"></div></td>
+            <td><div class="box"></div></td>
+        </tr>
+        </table>
+
+        <h2 id="message"><span id="winner"></span> Player Wins</h2>
+		<button id="move">Start</button>
+        <button id="reset">Reset</button>
+		<div id="output">
+  Time left: <span id="label"><span>
+</div>
+    </div>
+	</div>
+	</div>
+</body>
+<script src="TicTactoe (3).js"></script>
+</html>
