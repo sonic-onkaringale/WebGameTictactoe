@@ -23,7 +23,7 @@ padding-left: 15px;
         
         /* padding: 70px 0; */
         margin: auto;
-        background-color: #E3F2FD;
+        background-color: white;
         font-family: 'Open Sans', sans-serif;
         max-width:1000px;
         
@@ -46,7 +46,7 @@ padding-left: 15px;
       .container-in {
         
         padding: 70px 0; 
-        background-color: #E3F2FD;
+        background-color: white;
         
       }
       .table-container {
@@ -55,7 +55,7 @@ padding-left: 15px;
         padding: 70px 0;
         
       
-        background-color:#E3F2FD;
+        background-color:white;
       }
 
       .box {
